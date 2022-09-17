@@ -1,10 +1,11 @@
 def maximum(x):
     z = max(x)
     return z
-#def ordering(x):
 
-#def calcAvg(x):
-t = (6,12,42,1)
+def ordering(s):
+    return sorted(s)
 
-print(maximum(t))
-
+def calcAvg(l):
+    ll = len(l)
+    ls = sum(l)
+    return ls/ll
